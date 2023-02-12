@@ -3,10 +3,10 @@ public class Exercise29
 {
 public static void main(String[] args) {
 Scanner input = new Scanner(System.in);
-System.out.print("USD: ");
-double usd = input.nextDouble();
-double thb  = 35.50;
-double rate  = usd * thb;
-System.out.printf("THB : %.2f ", rate );
+System.out.print("THB: ");
+double thb = input.nextDouble();
+double rate = 35.50;
+double usd = thb / rate ;
+System.out.printf("USD : %.2f ", usd );
 }
 }
